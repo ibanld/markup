@@ -12,7 +12,6 @@ export default function Preview({ text }) {
 				onCloseClick={() => console.log('Close window')}
 				onMinimizeClick={() => console.log('Minimize window')}
 				onMaximizeClick={() => console.log('Mazimize window')}
-				onResizeClick={() => console.log('Resized window')}
 			/>
 			<Text dangerouslySetInnerHTML={{ __html: marked(text) }} />
 		</Window>
