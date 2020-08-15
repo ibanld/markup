@@ -24,14 +24,10 @@
 	color: white;
 }
 
-#editor {
+#editor, #win-editor, #preview, #win-preview {
 	width: 45vw;
 	height: 46.8vh;
-}
-
-#win-editor {
-	width: 45vw;
-	height: 46.8vh;
+	overflow-y: scroll;
 }
 
 #footer {

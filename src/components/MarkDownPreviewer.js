@@ -1,15 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from './NavbarComponent'
 import Loading from './LoadingComponent';
 import Editor from './EditorComponent';
 import Preview from './PreviewComponent';
 import Footer from './FooterComponent';
+import { startText } from './startText';
 
 const MarkdownPreviewer = () => {
     const [win, setWin] = useState(false);
     const [text, setText] = useState('');
     const [loading, setLoading ] = useState(false);
     
+    useEffect(() => {
+        setText(startText)
+    }, [])
+
     const bg = win ? 'url(https://hipertextual.com/files/2014/03/windows_xp_bliss-wide.jpg)' : 'url(https://cdn.spacetelescope.org/archives/images/screen/opo0501a.jpg)'
 	return (
         <>
