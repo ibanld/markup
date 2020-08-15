@@ -8,7 +8,7 @@ import Footer from './FooterComponent';
 const MarkdownPreviewer = () => {
     const [win, setWin] = useState(false);
     const [text, setText] = useState('');
-    const [loading, setLoading ] = useState(true);
+    const [loading, setLoading ] = useState(false);
     
     const bg = win ? 'url(https://hipertextual.com/files/2014/03/windows_xp_bliss-wide.jpg)' : 'url(https://cdn.spacetelescope.org/archives/images/screen/opo0501a.jpg)'
 	return (
