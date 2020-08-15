@@ -1,10 +1,20 @@
 import React from 'react';
+import { TitleBar } from 'react-desktop/macOs';
+import { TitleBar as WinTitleBar } from 'react-desktop/windows';
 
-export default function Footer(props) {
+export default function Footer({ win, setWin }) {
 	return (
 		<div id='footer'>
-			<i className='fab fa-windows' />
-			<i className='fab fa-apple' />
+			{!win ? (
+				<TitleBar>
+					{' '}
+					<i className='fab fa-windows fa-lg' onClick={() => setWin(!win)} />{' '}
+				</TitleBar>
+			) : (
+				<WinTitleBar>
+					<i className='fab fa-apple fa-lg' onClick={() => setWin(!win)} />
+				</WinTitleBar>
+			)}
 		</div>
 	);
 }
