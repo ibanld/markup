@@ -4,15 +4,26 @@
 	box-sizing: border-box;
 }
 
+#navbar {
+	height: 2vh;
+	width: 100vw;
+	font-size: 100%;
+}
+
 .container {
 	background-image: url(https://cdn.spacetelescope.org/archives/images/screen/opo0501a.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100vw;
-	height: 100vh;
+	height: 98vh;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	color: white;
+}
+
+#editor {
+	width: 45vw;
+	height: 46.8vh;
 }
