@@ -1,34 +1,17 @@
-export const startText = `# Welcome to my React Markdown Previewer!
+export const startText = `# 📋 MarkUp!
+### Markdown Previewer built with React.
 
-## This is a sub-heading...
-### And here's some other cool stuff:
+## 🔨 Built with
+__Mark Up!__ has been built using [React](), [React Desktop](https://reactdesktop.js.org/), [Marked-JS](https://github.com/markedjs/marked?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library), [DOMPurify](https://github.com/cure53/DOMPurify) and [use-Sound](https://joshwcomeau.com/react/announcing-use-sound-react-hook/).
 
-You can also make text **bold**... whoa!
-Or _italic_.
-Or... wait for it... **_both!_**
-And feel free to go crazy ~~crossing stuff out~~.
+This App is part of the final projects in the [FreeCodeCamp](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer) Front End Libraries Certification.
 
-There's also [links](https://www.freecodecamp.com), and
-> Block Quotes!
+## 🌟 Features
+1. Developed using __React JS__.
+1. Choose between __Windows__ and __MacOS__ themes.
+1. _Marked_ has been used as engine to encode the text from the textarea input into HTML.
+1. _DOMPurify_ has been used to sanitize the code that was rendered into the DOM with __dangerouslySetInnerHTML__ attribute. 
+1. _Use-Sound hook_ has been used to reproduce start-up sounds of both themes.
 
-And if you want to get really crazy, even tables:
-
-Wild Header | Crazy Header | Another Header?
------------- | ------------- | ------------- 
-Your content can | be here, and it | can be here....
-And here. | Okay. | I think we get it.
-
-- And of course there are lists.
-  - Some are bulleted.
-     - With different indentation levels.
-        - That look like this.
-
-
-1. And there are numbererd lists too.
-1. Use just 1s if you want! 
-1. But the list goes on...
-- Even if you use dashes or asterisks.
-* And last but not least, let's not forget embedded images:
-
-![React Logo w/ Text](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png)
-`;
+## 📝 License
+__Mark Up!__ is under _MIT License_. You can read the full license file [here](LICENSE).`;
