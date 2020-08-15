@@ -1,9 +1,10 @@
 import React from 'react';
+import MarkdownPreviewer from './components/MarkDownPreviewer';
 
 const App = () => {
   return (
     <>
-      <h1>Markdown previewer</h1>
+      <MarkdownPreviewer />
     </>
   );
 }
