@@ -10,10 +10,6 @@ export default function Editor({ text, setText, win }) {
                     <TitleBar
                         title='Editor'
                         controls
-                        onCloseClick={() => console.log('Close window')}
-                        onMinimizeClick={() => console.log('Minimize window')}
-                        onMaximizeClick={() => console.log('Mazimize window')}
-                        onResizeClick={() => console.log('Resized window')}
                     />
                     <Text>
                         <textarea
@@ -33,9 +29,6 @@ export default function Editor({ text, setText, win }) {
                     <WinTitleBar
                         title='Editor'
                         controls
-                        onCloseClick={() => console.log('Close window')}
-                        onMinimizeClick={() => console.log('Minimize window')}
-                        onMaximizeClick={() => console.log('Mazimize window')}
                     />
                     <WinText
                     >
